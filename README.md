@@ -82,7 +82,9 @@ To contribute, you may need to add new packages or update existing ones in the e
      conda env export --from-history > environment.yml
      ```
      > **Note**: `--from-history` includes only the packages you explicitly installed, which keeps `environment.yml` clean and avoids unnecessary dependencies.
+
      > ⚠️ **Important:** Please make sure the conda-forge is still under the channels section, if it is not, add it back to the first line under the channels section.
+     
      > ⚠️ **Important:** Remove the last prefix line if it exists.
 
 2. **Update Environment for Others**:
