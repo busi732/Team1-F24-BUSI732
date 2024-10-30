@@ -114,9 +114,9 @@ To contribute, you may need to add new packages or update existing ones in the e
      ```bash
      conda env update --file environment.yml --prune
      ```
-   This will update your environment to match the `environment.yml` file, adding or removing packages as needed.
+     This will update your environment to match the `environment.yml` file, adding or removing packages as needed.
      
-   > **Note**: The `--prune` flag ensures any packages removed from the environment are also removed locally, keeping everyone’s environment consistent.
+     > **Note**: The `--prune` flag ensures any packages removed from the environment are also removed locally, keeping everyone’s environment consistent.
 
 4. **Commit Your Changes**:
    - When you’ve made changes to the environment or code, commit and push them:
