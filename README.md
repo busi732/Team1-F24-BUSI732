@@ -13,7 +13,7 @@ The following instructions will guide you on how to set up the project, run it i
 
 ---
 
-### Getting Started
+## Getting Started
 
 1. **Prerequisites**:
    - Install **Git**, **Conda**, and **Python 3.8.x or later**.
@@ -27,7 +27,7 @@ The following instructions will guide you on how to set up the project, run it i
      cd Team1-F24-BUSI732
      ```
 
-### Setting Up the Environment
+## Setting Up the Environment
 
 The project uses Conda for managing dependencies. You’ll set up the environment using the `environment.yml` file, which includes all required packages.
 
@@ -50,7 +50,7 @@ The project uses Conda for managing dependencies. You’ll set up the environmen
      python -m ipykernel install --user --name=732_turbine_env --display-name "Python (732_turbine_env)"
      ```
 
-### Selecting the Conda Environment in VS Code
+## Selecting the Conda Environment in VS Code
 
 After setting up the Conda environment, follow these steps to select it in VS Code:
 
@@ -67,12 +67,12 @@ After setting up the Conda environment, follow these steps to select it in VS Co
 4. **Verify the Selection**:
    - Once selected, you should see "732_turbine_env (Python 3.8.x)" displayed at the top of the notebook. This confirms that the notebook is using the correct Conda environment.
 
-### Running the Project
+## Running the Project
 
 1. **Run Cells**:
    - Run individual cells in the notebook. Verify that each cell executes successfully to confirm that your environment is set up correctly.
 
-### Contributing to the Project
+## Contributing to the Project
 
 To contribute, you may need to add new packages or update existing ones in the environment. Here’s how to do it:
 
@@ -109,7 +109,7 @@ To contribute, you may need to add new packages or update existing ones in the e
 
 ---
 
-### Project Structure
+## Project Structure
 
 This project follows a standard data science directory structure to keep code and data organized:
 
