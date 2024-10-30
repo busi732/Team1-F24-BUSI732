@@ -16,7 +16,7 @@ The following instructions will guide you on how to set up the project, run it i
 ## Getting Started
 
 1. **Prerequisites**:
-   - Install **Git**, **Conda**, and **Python 3.8.x or later**.
+   - Make sure you have either Anaconda or Miniconda installed. If not, you can download and install Miniconda from this [link](https://docs.anaconda.com/miniconda/).
    - Ensure that **VS Code** is installed with the **Python** and **Jupyter** extensions enabled.  
 
 2. **Clone the Repository**:
@@ -76,11 +76,29 @@ After setting up the Conda environment, follow these steps to select it in VS Co
 
 To contribute, you may need to add new packages or update existing ones in the environment. Here’s how to do it:
 
-1. **Add New Packages**:
-   - If you need to add a new package, first install it into the environment with:
+1. **Installing Packages**:
+   - Once the environment is activated, you can install additional packages as needed using either conda or pip:
      ```bash
      conda install <package-name>
      ```
+     or
+     ```bash
+     pip install <package_name>
+     ```
+     for example:
+     ```bash
+     conda install numpy pandas
+     pip install requests
+     ```
+2. **Update Environment**
+   - It’s a good idea to periodically run:
+     ```bash
+     conda update --all
+     ```
+     This keeps all packages up to date and avoids compatibility issues.
+     
+     > **Note**: Running `conda update --all` does not automatically update the `environment.yml` file. After updating packages, you need to manually update the environment file.
+     
    - To update the `environment.yml` file with this change, export the current environment:
      ```bash
      conda env export --from-history > environment.yml
@@ -91,14 +109,16 @@ To contribute, you may need to add new packages or update existing ones in the e
      
      > ⚠️ **Important:** Remove the last prefix line if it exists.
 
-2. **Update Environment for Others**:
-   - After updating `environment.yml`, other need to update their local environment to match the new configuration:
+3. **Merging Updates**:
+   - After updating `environment.yml` or pull the latest changes from the repository (including an updated `environment.yml`). you need to update the local environment to match the new configuration:
      ```bash
      conda env update --file environment.yml --prune
      ```
-   - This will update their environment to match the `environment.yml` file, adding or removing packages as needed.
+   - This will update your environment to match the `environment.yml` file, adding or removing packages as needed.
+     
+   > **Note**: The `--prune` flag ensures any packages removed from the environment are also removed locally, keeping everyone’s environment consistent.
 
-3. **Commit Your Changes**:
+4. **Commit Your Changes**:
    - When you’ve made changes to the environment or code, commit and push them:
      ```bash
      git add .
