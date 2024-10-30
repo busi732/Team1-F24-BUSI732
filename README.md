@@ -16,8 +16,7 @@ The following instructions will guide you on how to set up the project, run it i
 ### Getting Started
 
 **Prerequisites**:  
-    - Install **Git**, **Conda**, and **Python 3.8.x or later**.
-    
+    - Install **Git**, **Conda**, and **Python 3.8.x or later**. 
     - Ensure that **VS Code** is installed with the **Python** and **Jupyter** extensions enabled.  
 
 1. **Clone the Repository**:
