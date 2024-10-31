@@ -4,14 +4,20 @@ This is a project repository for Team 1 members in BUSI 732, Fall2024
 The following instructions will guide you on how to set up the project, run it in VS Code, and contribute by updating the Conda environment.
 
 ## Table of Contents
-1. [Getting Started](#getting-started)
-2. [Setting Up the Environment](#setting-up-the-environment)
-3. [Selecting the Conda Environment in VS Code](#selecting-the-conda-environment-in-vs-code)
-4. [Running the Project](#running-the-project)
-5. [Contributing to the Project](#contributing-to-the-project)
-6. [Project Structure](#project-structure)
-
+1. [About This Wiki](#about-this-wiki)
+2. [Getting Started](#getting-started)
+3. [Setting Up the Environment](#setting-up-the-environment)
+4. [Selecting the Conda Environment in VS Code](#selecting-the-conda-environment-in-vs-code)
+5. [Running the Project](#running-the-project)
+6. [Contributing to the Project](#contributing-to-the-project)
+7. [Project Structure](#project-structure)
+8. [About Us](#about-us)
 ---
+
+## About This Wiki
+
+This wiki compares and contrasts the benefits of these two  energy sectors: oil and gas operations and renewable energy operations. We take it upon ourselves to weigh out the pros and cons of each type of energy and how beneficial it would be for us. Our analysis will focus on the efficiency of these two sectors, the operational cost of these sources, and the infrastructure that allows us to build it as such. We aim to create a better understanding of this sector using our data science experience as a framework to provide a deeper look into these sectors.
+
 
 ## Getting Started
 
@@ -148,3 +154,10 @@ Team1-F24-BUSI732/
 ├── requirements.txt        # Dependencies for pip (optional)
 ├── environment.yml         # Conda environment configuration
 └── README.md               # Project documentation
+
+## About Us
+
+We are graduate students in Rice University's Master Of Data Science Program. We are Team 1 in Professor Gibby Dunleavy's BUSI 732 Quantitative Operations course.
+Our names are Gloria, Chistina. Tegan and Alex
+
+---
