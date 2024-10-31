@@ -154,10 +154,11 @@ Team1-F24-BUSI732/
 ├── requirements.txt        # Dependencies for pip (optional)
 ├── environment.yml         # Conda environment configuration
 └── README.md               # Project documentation
+```
+
+---
 
 ## About Us
 
 We are graduate students in Rice University's Master Of Data Science Program. We are Team 1 in Professor Gibby Dunleavy's BUSI 732 Quantitative Operations course.
 Our names are Gloria, Chistina. Tegan and Alex
-
----
