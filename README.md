@@ -145,10 +145,10 @@ Team1-F24-BUSI732/
 │   ├── raw/                   # Raw data files
 │   ├── processed/             # Processed data
 │   └── external/              # External data sources
-├── tests/                     # Jupyter notebooks and tests
-│   ├── mytests/               # Test notebooks
-│      └── check_conda.ipynb   # A notebook for testing Conda setup
-│   └── unit_tests/            # Unit and integration tests for the source code
+├── notebooks_tests/           # Jupyter notebooks and tests
+│   ├── unit_tests/            # Unit and integration tests for the source code
+│   ├── check_conda.ipynb      # A notebook for testing Conda setup
+│   └── eda.ipynb              # Exploratory Data Analysis (EDA) notebook
 ├── src/                       # Source code scripts
 ├── models/                    # Serialized models and model checkpoints
 ├── reports/                   # Generated analysis and reports
