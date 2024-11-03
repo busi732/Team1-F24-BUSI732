@@ -141,19 +141,25 @@ This project follows a standard data science directory structure to keep code an
 
 ```plaintext
 Team1-F24-BUSI732/
-├── data/                   # Data files
-│   ├── raw/                # Raw data files
-│   ├── processed/          # Processed data
-│   └── external/           # External data sources
-├── notebooks/              # Jupyter notebooks
-│   ├── mytests/            # Test notebooks
-│   └── check_conda.ipynb   # A notebook for testing Conda setup
-├── src/                    # Source code scripts
-├── models/                 # Serialized models and model checkpoints
-├── reports/                # Generated analysis and reports
-├── requirements.txt        # Dependencies for pip (optional)
-├── environment.yml         # Conda environment configuration
-└── README.md               # Project documentation
+├── data/                      # Data files
+│   ├── raw/                   # Raw data files
+│   ├── processed/             # Processed data
+│   └── external/              # External data sources
+├── tests/                     # Jupyter notebooks and tests
+│   ├── mytests/               # Test notebooks
+│      └── check_conda.ipynb   # A notebook for testing Conda setup
+│   └── unit_tests/            # Unit and integration tests for the source code
+├── src/                       # Source code scripts
+├── models/                    # Serialized models and model checkpoints
+├── reports/                   # Generated analysis and reports
+├── docs/                      # Documentation and Wiki information
+│   ├── wiki.md                # Wiki information including introduction, team, ADR summary and questions for EnergyCo. 
+│   ├── user_guide.md          # User guide for the project
+│   ├── setup_guide.md         # Setup instructions
+│   └── faq.md                 # Frequently asked questions
+├── requirements.txt           # Dependencies for pip (optional)
+├── environment.yml            # Conda environment configuration
+└── README.md                  # Project documentation
 ```
 
 ---
