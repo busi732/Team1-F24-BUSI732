@@ -25,9 +25,9 @@ Each branch name should follow a standardized format to clearly indicate its pur
 
 1. **General Format**
 
-`<type>/<description>`
-   - Type: A prefix to specify the branch type (e.g., `feature`, `bug`, `hotfix`).
-   - Description: A short, descriptive name for the work being done, using hyphens instead of spaces.
+   `<type>/<description>`
+      - Type: A prefix to specify the branch type (e.g., `feature`, `bug`, `hotfix`).
+      - Description: A short, descriptive name for the work being done, using hyphens instead of spaces.
 
 2. **Examples**
    - `feature/eda-analysis`
