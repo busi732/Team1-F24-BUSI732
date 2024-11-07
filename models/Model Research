@@ -1,0 +1,44 @@
+<h1>Team1-F24-BUSI732 Model Considerations</h1>
+
+<h2>1. Wind Resource Assessment and Forecasting Models</h2>
+
+<h3>Objective: </h3>
+Improve energy production via the optimization of turbine placement, wind pattern analysis and energy output maximization.
+<h3>Model Type: </h3>
+Statistical and machine learning-based forecasting models.
+<h3>Description: </h3>
+These models use historic wind data as well as old weather forecasts to predict wind conditions at specific locations within the wind farm. 
+With this model, we can also use meteorological data, like satellite data, and real-time sensor inputs.
+<h3>Optimization Goal:</h3>
+Optimize wind turbine placement in the farm to make sure they are placed in areas with consistent and high wind speeds according to our data.
+Develop short-term and long-term wind forecasts for adjustments in turbine operation in accordance to our historical wind data, ensuring our turbines are operating at peak capacity as often as we can.
+<h3>Example: </h3>
+Creating a model that integrates weather prediction data, such as machine learning algos like the LSTM network, to forecast wind speeds in order for us to optimize wind turbine operation for the next 24-48 hours.
+
+<h2>2. Predictive Maintenance Models</h2>
+<h3>Objective: </h3>
+Reduce wind turbine downtime to extend the life of out equipment by predicting and preventing failures via machine maintenace.
+<h3>Model Type: </h3>
+Predictive maintenance models based on condition monitoring of our turbines and failure prediction based on historic data.
+<h3>Description: </h3>
+These models use sensor data from turbines (ex. vibration and temperature) to predict when maintenance is required, identify potential component failures, and schedule maintenance to prevent failures.
+<h3>Optimization Goal:</h3>
+Minimize turbine downtime due equipment malfunctions to reduce maintenance costs by predicting when turbines are likely to fail or when components (ex. gearbox, bearings, blades) need to be replaced.
+Schedule maintenance activities in an optimal manner to reduce the need for emergency repairs and turbine shutdowns.
+<h3>Example: </h3>
+A deep learning model trained on historical failure data (ex. convolutional neural networks for vibration analysis) that predicts the failure of various turbine components and requests for maintenance on the turbines.
+
+<h2>3. Energy Storage and Grid Integration Models</h2>
+<h3>Objective: </h3>
+Optimize integrating wind energy into our electrical grid to reduce curtailment via the management of storage and balancing supply-demand mismatches.
+
+<h3>Model Type: </h3>
+Energy storage and grid optimization models.
+<h3>Description: </h3>
+These models simulate interactions between wind energy generation, energy storage, and grid demand. 
+They will use energy storage systems for the storeage of excess energy when production exceeds demand and release it when production falls short or when grid demand spikes.
+<h3>Optimization Goal:</h3>
+Maximize the utilization of wind-generated energy via the minimilzation of curtailment in our energy grids.
+Balance supply and demand to improve grid stability and reduce our reliance on fossil fuels.
+<h3>Example: </h3>
+An optimization model that can predict energy generation and storage requirements for each step that takes into account weather forecasts, grid demand, and storage capacity.
