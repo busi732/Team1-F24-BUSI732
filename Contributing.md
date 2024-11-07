@@ -30,7 +30,7 @@ Each branch name should follow a standardized format to clearly indicate its pur
       - Description: A short, descriptive name for the work being done, using hyphens instead of spaces.
 
 2. **Examples**
-   - `feature/eda-analysis`
+   - `feature/eda`
    - `bug/fix-model-setup`
    - `hotfix/correct-envir`
 
@@ -50,7 +50,7 @@ Follow these steps to contribute to the project effectively:
       ```bash
       git checkout -b <branch-name>
       ```
-      Replace `<branch-name>` with a descriptive branch name following the conventions, e.g., `feature/eda-analysis`, `bug/fix-model-setup`.
+      Replace `<branch-name>` with a descriptive branch name following the conventions, e.g., `feature/eda`, `bug/fix-model-setup`.
    - If working on an existing branch, make sure to pull the latest changes from the main branch into your branch:
       ```bash
       git checkout <branch-name>
