@@ -15,4 +15,7 @@
    - **Primary Key**: `DateTime`
 
 ### Diagram
+
+This visual structure highlights the relationships between `SCADA Data`, `Status Data`, and `Fault Data`, centered on their common datetime fields. 
+
 ![Local image](./ERD.png)
