@@ -24,5 +24,4 @@
 ### Diagram
 This visual structure highlights the relationships between `WEC`, `Temperature`, `Inverter` ,`Status`, and `Timestamp` centered on their common datetime fields. 
 
-![Local image](./output_erd.drawio)
 ![Local image](./Output_erd.png)
