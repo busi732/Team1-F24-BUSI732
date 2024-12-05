@@ -4,7 +4,6 @@
     Based on the merged data, the primary entities are:
    - **Wind Turbin(WEC)**: Represents various operational metrics, such as wind speed, power, and rotation.
    - **Temperature**: Includes different temperature readings for varioous turbin components.
-   - **Inverter**: Contains measurements related to inverter performance.
    - **Status**: Captures turbine status messages, errors, and fault information.
    - **Timestamp**: Represents the time-related data for each measurement.
 
@@ -12,7 +11,6 @@
 2. **Attributes for Each Entity**
    - **Wind Turbin(WEC)**: `ava.windspeed`, `max. windspeed`,`min. windspeed`,`ava. Rotation`,`max. Rotation`,`Production kWh`, etc.
    - **Temperature**: `Spinner temp`, `Front bearing temp`,`Blade A temp`,`Nacelle temp`, etc.
-   - **Inverter**: `Inverter averages`,`Inverter std dev`, various inverter cabinet temperatures.
    - **Status**: `Main Status`, `Sub Status`,`Full Status`,`Error`,`FaultMsg`,`Fault`.
    - **Timestamp**: `DateTime`, `Timesamp`,`Time`.
 
@@ -24,4 +22,4 @@
 ### Diagram
 This visual structure highlights the relationships between `WEC`, `Temperature`, `Inverter` ,`Status`, and `Timestamp` centered on their common datetime fields. 
 
-![Local image](./Output_erd.png)
+![Local image](./output_erd.png)
