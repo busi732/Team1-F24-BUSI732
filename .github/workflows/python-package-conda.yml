@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-linux:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8, 3.9, 3.10]
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+    - name: Set up Miniconda
+      uses: conda-incubator/setup-miniconda@v2
+      with:
+          python-version: ${{ matrix.python-version }}
+          channel-priority: strict
+          channels: conda-forge
+          auto-update-conda: true
+          
+    - name: Run the following command in the terminal to create the environment
+      run: |
+        conda env create -f environment.yml
+    - name: Activate the Environment
+      run: |
+        conda activate 732_turbine_env
+    - name: Add the Environment to Jupyter
+      run: |
+        python -m ipykernel install --user --name=732_turbine_env --display-name "Python (732_turbine_env)"
+    - name: Installing Packages
+      run: |
+        conda install numpy pandas
+        pip install requests
+        
+
