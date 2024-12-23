@@ -10,3 +10,4 @@ dependencies:
   - ipykernel
   - notebook
   - matplotlib
+  - pulp
